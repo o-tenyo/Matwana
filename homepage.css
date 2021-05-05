@@ -30,7 +30,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 24px;
     color: #F69F30;
 }
+
+/* Styles the login text */
+.nav-menu > :last-child{
+    font-weight: bold;
+}
+
