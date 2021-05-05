@@ -1,6 +1,7 @@
 *{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .header{
 display: flex;
 justify-content: space-between;
@@ -12,6 +13,7 @@ padding-right: 53px;
 width: 97px;
 height: 95px;
 }
+
 .nav-menu{
 display: flex;
 flex-direction: row;
@@ -20,9 +22,11 @@ margin-top: 40px;
 font-size: 24px;
 color: #F69F30;
 }
+
 .nav-menu > :last-child{
 font-weight: bold;
 }
+
 .container{
 display: flex;
 flex-direction: row;
@@ -30,27 +34,24 @@ justify-content: space-between;
 float: right;
 padding:10px;
 }
+
 body{
 background-image: url(Images/matwana1440px.jpg);
 background-size:cover;
 background-repeat: no-repeat;
-    \background-position: center;
-}
-
-.login{
-    padding: 10%;
-    color: white;
+background-position: center;
 }
 
 .intro{
-    margin-left: 40%;
-    font-size: xx-large;
-    width: fit-content;
-    align-items: center;
+margin-left: 40%;
+font-size: xx-large;
+width: fit-content;
+align-items: center;
+color: #F69F30;
+padding-top: 50px;
+font-weight: 700;
 }
-.intro:hover{
-    color: #F69F30;
-}
+
 #username{
 padding-right: 30px;
 height: 350px;
@@ -62,70 +63,75 @@ color: white;
 padding: 20px;
 background-color: #353239;
 justify-content: space-around;
+padding-top: 30px; 
+padding-bottom: -10px;
 }
 
- .usr
- {
+.usr{
 padding-top: 20px;
 height: 20px;
-    width: 250px;
-     border-bottom: solid #F69F30 1px;
-     background-color: #353239;
-     border-left: none;
-     border-right:none;
-     border-top: none;
- }
- .usr:hover{
-     color: #F69F30;
- }
+width: 250px;
+border-bottom: solid #F69F30 1px;
+background-color: #353239;
+border-left: none;
+border-right:none;
+border-top: none;
+}
+
+.usr:hover{
+color: #F69F30;
+}
+
 .pswd{
-    border: solid #F69F30 ;
-    padding-top: 20px;
-    height: 20px;
-    width: 250px;
-    border-bottom: solid #F69F30 1px; 
-    background-color: #353239;
-    border-left: none;
-    border-right:none;
-    border-top: none;
+border: solid #F69F30 ;
+padding-top: 20px;
+height: 20px;
+width: 250px;
+border-bottom: solid #F69F30 1px; 
+background-color: #353239;
+border-left: none;
+border-right:none;
+border-top: none;
 }
 .pswd:hover{
-    color: #F69F30;
+color: #F69F30;
 }
 #terms{
-    color: black;
+color: black;
 }
-#terms:hover{
-    color: #F69F30;
-}
+
 #log{
-    height: 40px;
-    width: 250px;
-    border: solid #F69F30 1px;
-    border-radius: 3px;
-    background-color: #353239;
-    color: white;
-    font-size: large;
+height: 40px;
+width: 250px;
+border: solid #F69F30 1px;
+border-radius: 3px;
+background-color: #353239;
+color: white;
+font-size: large;
 }
+
 #log:hover{
-    color: #F69F30;
+color: #F69F30;
 }
+
 i{
-    size: 30px;
-    padding: 5px;
-    color: #F69F30;
+size: 30px;
+padding: 5px;
+color: #F69F30;
 }
 
 a:link{
-    color: #F69F30;
+color: #F69F30;
 }
+
 a:visited{
-    color: white;
+color: white;
 }
 
 a:hover{
-    color:#F69F30;
+color:#F69F30;
 }
+
 a:active{
-    color:blue;
+color:blue;
 }
