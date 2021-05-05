@@ -16,8 +16,8 @@
         
         <!-- Navigation Menu -->        
         <nav class="nav-menu">
-            <ul>Homepage</ul>
-            <ul>About/Contact</ul>
+            <ul>Home</ul>
+            <ul>About</ul>
             <ul>Login</ul>
         </nav>
         
@@ -62,33 +62,44 @@
                 </div>
                 <p>Preferred Sacco</p>
                 <!-- Preferred Sacco -->
-                <ul id="preferred-sacco">
-                    <li>Umoinner</li>
-                    <li>Rizen</li>
-                    <li>Utimo</li>
-                    <li>Ummoiner</li>
-                    <li>Utimo</li>
-                </ul>
+                <select name="Preferred Sacco" id="preferred-sacco">
+                    <option value="umoinner">Umoinner</option>
+                    <option value="rizen">Rizen</option>
+                    <option value="utimo">Utimo</option>
+                    <option value="ummoiner">Ummoiner</option>
+                    <option value="utimo">Utimo</option>
+                </select>
+
+                <!-- No. of Seats -->
+                <div class="seats">
+                    <p>No. of seats</p>
+                    <form action="#">
+                        <input type="number" id="seats" name="seats" min="1" max="30">
+                    </form>
+                </div>
 
             </div>
 
-            <!-- Preferred Sacco Card-->
+            <!-- Select Vehicle Card-->
             <div class="select-vehicle">
                 <div class="circle">
                     <i class="fa fa-bus" aria-hidden="true"></i>
                 </div>
                 <p>Select Vehicle</p>
                 <!-- Vehicles select options -->
-                <div>
-                    <ul id="select-vehicle">
-                        <li>KBA YYE26 Canter 13 Seats Remaining</li>
-                        <li>KBA YYE26 Canter 13 Seats Remaining</li>
-                        <li>KBA YYE26 Canter 13 Seats Remaining</li>
-                        <li>KBA YYE26 Canter 13 Seats Remaining</li>
-                        <li>KBA YYE26 Canter 13 Seats Remaining</li>
-                    </ul>
+                <select name="Select Vehicle" id="select-vehicle">
+                    <option value="KBA-YYE26">KBA YYE26 Canter 13 Seats Remaining</option>
+                    <option value="KBA-YYE26">KBA YYE26 Canter 13 Seats Remaining</option>
+                    <option value="KBA-YYE26">KBA YYE26 Canter 13 Seats Remaining</option>
+                    <option value="KBA-YYE26">KBA YYE26 Canter 13 Seats Remaining</option>
+                    <option value="KBA-YYE26">KBA YYE26 Canter 13 Seats Remaining</option>
+                </select>
+
+                <p>mode of payment</p>
+                <div class="buttons">
+                    <button><img id="m-pesa" src="./homepage-image-assets/Icons/mpesa.png" alt="M-Pesa"> M-Pesa</button>
+                    <button><img id="card" src="./homepage-image-assets/Icons/MasterCard-Visa.png" alt="card"> Card</button>
                 </div>
-                
             </div>
         </div>
 

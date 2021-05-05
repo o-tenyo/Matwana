@@ -133,13 +133,9 @@ body{
 /* Styles the list items in the preferred sacco */
 #preferred-sacco{
     background-color: white;
-    width: 210px;
-    height: 130px;
+    width: 250px;
     margin-top: 10px;
-    padding: 20px;
     font-size: 24px;
-    list-style-type: none;
-    overflow: scroll;
 }
 
 /* Adds spacing between preferred sacco list items text */
@@ -149,11 +145,94 @@ body{
 
 /* Styles the select vehicle list */
 #select-vehicle{
-    background-color: white;
-    width: 210px;
-    height: 130px;
-    padding: 20px;
     margin-top: 10px;
-    list-style-type: none;
-    overflow: scroll;
+    font-size: 24px;
+    width: 250px;
+}
+
+/* Styles the payment section */
+.payment-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Styles the payment select option */
+.payment{
+    background-color: #353239;
+    width: 381px;
+    height: 157px;
+}
+
+/* Styles the mode of payment text */
+.select-vehicle > :nth-child(4){
+    margin-top: 20px;
+    font-size: 24px !important;
+}
+
+/* Styles the Buttons */
+button{
+    width: 129px;
+    height: 41px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #F69F30;
+    border: solid #353239 2px;
+    color: #353239;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Styles the first button */
+.buttons > :first-child{
+    border-radius: 10px 0 0 10px;
+    margin-right: 5px;
+}
+
+/* Styles the second button */
+.buttons > :last-child{
+    border-radius: 0 10px 10px 0px;
+    margin-left: 5px;
+}
+
+/* Styles the M-Pesa icon */
+#m-pesa{
+    width: 25px;
+    height: 25px;
+}
+
+/* Styles the card Icon */
+#card{
+    width: 25px;
+    height: 25px;
+}
+
+/* Styles the content inside the buttons */
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Positions the number of seats text and number field */
+.seats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.seats > p{
+    color: #353239;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#seats{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
 }
