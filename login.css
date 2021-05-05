@@ -1,0 +1,54 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+}
+
+
+
+/* .header{
+display: flex;
+float: right;
+flex-direction: row;
+} */
+
+body{
+background-image: url(Images/matwana1440px.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+.login{
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+
+#username{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 40% ;
+    opacity: 0.8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ .usr{
+     height: 50px;
+     width: 100px;
+     border-bottom: solid #F69F30;
+ }
+.pswd{
+    height: 50px;
+    width: 100px;
+    border-bottom: solid #F69F30;
+    
+}
+#log{
+    height: 30px;
+    width: 100px;
+}
