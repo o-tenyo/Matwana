@@ -38,9 +38,14 @@ background-position: center;
     padding: 10%;
     color: white;
 }
+
 .intro{
-    text-align: center;
+    margin-left: 40%;
     font-size: xx-large;
+    width: fit-content;
+}
+.intro:hover{
+    color: #F69F30;
 }
 #username{
     height: 350px;
@@ -83,3 +88,7 @@ i{
     padding: 5px;
     color: #F69F30;
 }
+
+/* .username:active{
+   color: #F69F30;
+} */
