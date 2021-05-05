@@ -34,3 +34,6 @@ input,button{
     transition: transform 1.s ease-in-out;
     padding: 50px 30px 0;
 }
+.sub-cont {
+    overflow: hidden;
+}
