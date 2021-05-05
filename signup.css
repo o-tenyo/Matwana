@@ -32,5 +32,5 @@ input,button{
     width: 640px;
     height: 100px;
     transition: transform 1.s ease-in-out;
-    
+    padding: 50px 30px 0;
 }
