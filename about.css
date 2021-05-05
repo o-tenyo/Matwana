@@ -43,7 +43,8 @@
     font-size: 50px;
 }
 .our-teams-h{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     color:#f69f30;
     font-size: 45px;
 }
@@ -79,7 +80,14 @@
 .complaints{
     flex-grow: 1;
 }
-
+.teams-p{
+    font-size: 20px;
+}
+.teams-phone{
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
 
 .office-locations{
     margin-top: 50px;
