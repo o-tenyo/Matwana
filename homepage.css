@@ -70,6 +70,7 @@ body{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    overflow: visible;
 }
 
 /* Styles the icon circle containers*/
@@ -98,4 +99,11 @@ body{
     text-align: center;
     font-weight: bold;
     
+}
+
+/* Styles the select dropdown options */
+#destinations{
+    margin-top: 10px;
+    font-size: 24px;
+    width: 250px;
 }
