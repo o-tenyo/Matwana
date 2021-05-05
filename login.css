@@ -79,16 +79,41 @@ background-position: center;
     color: white;
 
 }
-#log >:first-child{
+/* #log >:first-child{
     text-align: center;
-}
+} */
 
 i{
     size: 30px;
     padding: 5px;
     color: #F69F30;
 }
+#username:link{
+    color:#F69F30
+}
+#username:visited{
+    color: white;
+}
+i#username:hover{
+    color: #F69F30;
+}
 
-/* .username:active{
-   color: #F69F30;
-} */
+#username:active{
+    color: black;
+}
+
+
+a:link{
+    color: #F69F30;
+}
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color:#F69F30;
+}
+a:active{
+    color:black;
+}
+
