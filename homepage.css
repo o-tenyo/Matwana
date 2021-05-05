@@ -3,3 +3,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
