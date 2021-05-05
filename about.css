@@ -3,6 +3,11 @@
     margin: 0;
     font-family: Calibri;
 }
+body{
+    background-image: url("/assets-about/matwana-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .about-full{
     padding: 150px 80px;
 }
