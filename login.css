@@ -70,6 +70,9 @@ background-position: center;
     width: 300px;
     border-bottom: solid #F69F30;   
 }
+#terms{
+    color: black;
+}
 #log{
     height: 40px;
     width: 300px;
