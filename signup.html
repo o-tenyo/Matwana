@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
 </head>
+<!---Header part----->
 <body>
+     <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='website.html'>Seek Coding</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About Us</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+<!---Sign Up part----->
    <form>
-       <h1>SignUp</h1>
+       <h2>SignUp</h2>
        <input type="text" name="" list="tech" placeholder="Usertype">
        <datalist id="tech">
            <option>Driver</option>
