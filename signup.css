@@ -25,6 +25,7 @@ input{
     border: none;
     outline: none;
     font-size: 20px;
+    border-bottom: 1px solid black;
 }
 
 button{
@@ -32,4 +33,6 @@ button{
     height: 40px;
     font-size: 20px;
     background-color:#212425;
+    border-color: none;
+    color: rgb(226, 154, 19);
 }
