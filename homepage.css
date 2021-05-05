@@ -13,10 +13,13 @@ body{
     padding-right: 40px;
 }
 
+/* ######## HEADER ######## */
 /* Styles the header */
 .header{
     display: flex;
     justify-content: space-between;
+    padding-left: 53px;
+    padding-right: 53px;
 }
 
 /* Styles the logo */
@@ -40,6 +43,7 @@ body{
     font-weight: bold;
 }
 
+/* ######## BODY ######## */
 /* Styles the body heading */
 #heading{
     color: white;
@@ -47,4 +51,51 @@ body{
     font-weight: bold;
     width: 757px;
     margin-top: 80px;
+}
+
+/* Styles the body */
+.body{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Styles the cards */
+.destination-card{
+    width: 310px;
+    height: 288px;
+    background-color: #F69F30;
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+/* Styles the icon circle containers*/
+.circle-1{
+    background-color: #F69F30;
+    width: 67px;
+    height: 67px;
+    border: 2px solid #353239;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+/* styles the map icon */
+.circle-1 > i{
+    font-size: 41px;
+    color: #353239;
+}
+
+/* styles the heading text inside the cards */
+.destination-card > p{
+    color: #353239;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    
 }
