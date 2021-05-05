@@ -70,9 +70,9 @@ body{
     height: 350px;
 }
 .matwana-h{
-    padding: 30px;
+    padding-top: 30px;
     color:#f69f30;
-    font-size: 50px;
+    font-size: 80px;
 }
 .our-teams-h{
     padding-top: 30px;
@@ -127,7 +127,7 @@ body{
     margin-top: 50px;
     background-color: rgb(59, 55, 55);
     border-radius: 25px;
-    height: 350px;
+    height: 450px;
     text-align: center;
 }
 h3{
@@ -157,4 +157,16 @@ hr{
     border-left: 1px solid #f69f30;
     height: 10vh;
     width: 1px;
+}
+.chat-box{
+    margin: 50px auto;
+    height: 100px;
+    width: 600px;
+    border: #f69f30 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+}
+.chat-h{
+    font-size: 30px;
 }
