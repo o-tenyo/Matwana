@@ -98,7 +98,7 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 .booking{
@@ -114,7 +114,8 @@ body{
     flex-grow: 1;
 }
 .teams-p{
-    font-size: 20px;
+    font-size: 19px;
+    color: white;
 }
 .teams-phone{
     padding: 5px;
@@ -122,10 +123,38 @@ body{
     font-style: italic;
 }
 
-.office-locations{
+.office-locations-box{
     margin-top: 50px;
     background-color: rgb(59, 55, 55);
     border-radius: 25px;
     height: 350px;
     text-align: center;
+}
+h3{
+    font-size: 25px;
+    color: white;
+}
+.office-locations{
+    display: flex;
+}
+.railway{
+    flex-grow: 1;
+}
+.bus-station{
+    flex-grow: 1;
+}
+.odeon{
+    flex-grow: 1;
+}
+.archives{
+    flex-grow: 1;
+}
+.muthurwa{
+    flex-grow: 1;
+}
+hr{
+    border: none;
+    border-left: 1px solid #f69f30;
+    height: 10vh;
+    width: 1px;
 }
