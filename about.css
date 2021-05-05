@@ -70,7 +70,7 @@ body{
     height: 400px;
 }
 .matwana-h{
-    padding-top: 30px;
+    padding-top: 10px;
     color:#f69f30;
     font-size: 80px;
 }
@@ -157,11 +157,12 @@ hr{
     border-left: 1px solid #f69f30;
     height: 18vh;
     width: 1px;
+    opacity: 25%;
 }
 .chat-box{
     margin: 50px auto;
-    height: 80px;
-    width: 800px;
+    height: 100px;
+    width: 690px;
     border: #f69f30 solid 1px;
     border-radius: 10px;
     text-align: left;
@@ -169,4 +170,28 @@ hr{
 }
 .chat-h{
     font-size: 30px;
+}
+#email{
+    width: 320px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #f69f30 ;
+    opacity: 80%;
+}
+#subscribe{
+    width: 160px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #f69f30 ;
+    opacity: 80%;
+    margin-left: 20px;
+}
+#Chat{
+    /* padding: 1px; */
+    width: 210px;
+    /* height: 45px; */
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f69f30;
+    opacity: 80%;
 }
