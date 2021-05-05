@@ -36,8 +36,11 @@ background-position: center;
 
 .login{
     padding: 10%;
-    text-align: center;
     color: white;
+}
+.intro{
+    text-align: center;
+    font-size: xx-large;
 }
 #username{
     height: 350px;
@@ -47,9 +50,7 @@ background-position: center;
     margin-left: 40% ;
     color: white;
     padding: 20px;
-    text-align: center;
     background-color: #353239;
-    justify-content: center;
 }
  .usr{
      padding-top: 20px;
@@ -66,10 +67,19 @@ background-position: center;
 }
 #log{
     height: 40px;
-    width: 250px;
-    justify-content: center;
+    width: 300px;
     border-radius: 5px;
     border-color: #F69F30;
     background-color: #353239;
     color: white;
+
+}
+#log >:first-child{
+    text-align: center;
+}
+
+i{
+    size: 30px;
+    padding: 5px;
+    color: #F69F30;
 }
