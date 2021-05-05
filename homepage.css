@@ -60,7 +60,17 @@ body{
 }
 
 /* Styles the cards */
-.destination-card{
+
+/* Aligns the cards horizontally */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+/* Destination card */
+.destination-card, .preferred-sacco, .select-vehicle{
     width: 310px;
     height: 288px;
     background-color: #F69F30;
@@ -73,7 +83,7 @@ body{
     overflow: visible;
 }
 
-/* Styles the icon circle containers*/
+/* Styles the icons circle containers*/
 .circle-1{
     background-color: #F69F30;
     width: 67px;
@@ -86,14 +96,14 @@ body{
     margin-top: -40px;
 }
 
-/* styles the map icon */
+/* styles the icons */
 .circle-1 > i{
     font-size: 41px;
     color: #353239;
 }
 
 /* styles the heading text inside the cards */
-.destination-card > p{
+.destination-card > p, .preferred-sacco > p, .select-vehicle > p{
     color: #353239;
     font-size: 36px;
     text-align: center;
@@ -118,4 +128,21 @@ body{
     font-size: 24px;
     width: 250px;
     margin-top: 10px;
+}
+
+/* Styles the list items in the preferred sacco */
+#preferred-sacco{
+    background-color: white;
+    border-radius: 5px;
+    width: 210px;
+    height: 130px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 24px;
+    list-style-type: none;
+    overflow: scroll;
+}
+
+#preferred-sacco > li{
+    margin: 5px;
 }

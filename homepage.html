@@ -26,31 +26,70 @@
     <div class="body">     
         <!-- Heading -->
         <p id="heading">We get your seat, you avoid waiting in line, we get you home in time</p>
-        <!-- Cards -->
-        <div class="destination-card">
-            <div class="circle-1">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+        
+        <!-- ######### CARDS SECTION ######### -->
+        <div class="cards">
+            <!-- Destination card -->
+            <div class="destination-card">
+                <div class="circle-1">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <p>Destination</p>
+                <!-- Destinations select options -->
+                <select name="destinations" id="destinations">
+                    <option value="umoja">Umoja</option>
+                    <option value="buruburu">Buruburu</option>
+                    <option value="rongai">Rongai</option>
+                    <option value="zimmerman">Zimmerman</option>
+                    <option value="kahawa">Kahawa</option>
+                    <option value="githurai">Githurai</option>
+                    <option value="ruiru">Ruiru</option>
+                    <option value="juja">Juja</option>
+                    <option value="thika">Thika</option>
+                    <option value="kasarani">Kasarani</option>
+                </select>
+                <!-- Time options -->
+                <p>Time</p>
+                <form>
+                    <input type="time" id="time" name="time">
+                </form>
             </div>
-            <p>Destination</p>
-            <!-- Destinations select options -->
-            <select name="destinations" id="destinations">
-                <option value="umoja">Umoja</option>
-                <option value="buruburu">Buruburu</option>
-                <option value="rongai">Rongai</option>
-                <option value="zimmerman">Zimmerman</option>
-                <option value="kahawa">Kahawa</option>
-                <option value="githurai">Githurai</option>
-                <option value="ruiru">Ruiru</option>
-                <option value="juja">Juja</option>
-                <option value="thika">Thika</option>
-                <option value="kasarani">Kasarani</option>
-            </select>
-            <!-- Time options -->
-            <p>Time</p>
-            <form>
-                <input type="time" id="time" name="time">
-            </form>
+
+            <!-- Preferred Sacco Card-->
+            <div class="preferred-sacco">
+                <div class="circle-1">
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>
+                </div>
+                <p>Preferred Sacco</p>
+                <!-- Preferred Sacco -->
+                <ul id="preferred-sacco">
+                    <li>Umoinner</li>
+                    <li>Rizen</li>
+                    <li>Utimo</li>
+                    <li>Ummoiner</li>
+                    <li>Utimo</li>
+                </ul>
+
+            </div>
+
+            <!-- Preferred Sacco Card-->
+            <div class="select-vehicle">
+                <div class="circle-1">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <p>Destination</p>
+                <!-- Destinations select options -->
+                <div>
+                    
+                </div>
+                <!-- Time options -->
+                <p>Time</p>
+                <form>
+                    <input type="time" id="time" name="time">
+                </form>
+            </div>
         </div>
+
     </div>
 </body>
 </html>
