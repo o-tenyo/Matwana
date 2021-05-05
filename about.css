@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.about-full{
+    padding: 150px 80px;
+}
+.about-one{
+    background-color: rgb(59, 55, 55);
+    height: 350px;
+}
+.about-bus{
+
+}
+.about-text{
+    
+}
+.our-teams{
+    margin-top: 50px;
+    background-color: rgb(59, 55, 55);
+    height: 350px;
+}
+.office-locations{
+    margin-top: 50px;
+    background-color: rgb(59, 55, 55);
+    height: 350px;
+}
