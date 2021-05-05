@@ -84,7 +84,7 @@ body{
 }
 
 /* Styles the icons circle containers*/
-.circle-1{
+.circle{
     background-color: #F69F30;
     width: 67px;
     height: 67px;
@@ -97,7 +97,7 @@ body{
 }
 
 /* styles the icons */
-.circle-1 > i{
+.circle > i{
     font-size: 41px;
     color: #353239;
 }
@@ -133,7 +133,6 @@ body{
 /* Styles the list items in the preferred sacco */
 #preferred-sacco{
     background-color: white;
-    border-radius: 5px;
     width: 210px;
     height: 130px;
     margin-top: 10px;
@@ -143,6 +142,18 @@ body{
     overflow: scroll;
 }
 
-#preferred-sacco > li{
+/* Adds spacing between preferred sacco list items text */
+#preferred-sacco > li, #select-vehicle > li{
     margin: 5px;
+}
+
+/* Styles the select vehicle list */
+#select-vehicle{
+    background-color: white;
+    width: 210px;
+    height: 130px;
+    padding: 20px;
+    margin-top: 10px;
+    list-style-type: none;
+    overflow: scroll;
 }
