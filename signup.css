@@ -31,4 +31,6 @@ input,button{
     position: relative;
     width: 640px;
     height: 100px;
+    transition: transform 1.s ease-in-out;
+    
 }
