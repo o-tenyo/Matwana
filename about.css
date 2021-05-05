@@ -1,7 +1,7 @@
 * {
     /* padding: 0; */
     margin: 0;
-    font-family: Calibri;
+    font-family: 'Architects Daughter', cursive;
 }
 /* Styles the header */
 .header{
@@ -67,7 +67,7 @@ body{
     margin-top: 50px;
     background-color: rgb(59, 55, 55);
     border-radius: 25px;
-    height: 350px;
+    height: 400px;
 }
 .matwana-h{
     padding-top: 30px;
@@ -127,7 +127,7 @@ body{
     margin-top: 50px;
     background-color: rgb(59, 55, 55);
     border-radius: 25px;
-    height: 450px;
+    height: 500px;
     text-align: center;
 }
 h3{
@@ -155,13 +155,13 @@ h3{
 hr{
     border: none;
     border-left: 1px solid #f69f30;
-    height: 13vh;
+    height: 18vh;
     width: 1px;
 }
 .chat-box{
     margin: 50px auto;
-    height: 100px;
-    width: 600px;
+    height: 80px;
+    width: 800px;
     border: #f69f30 solid 1px;
     border-radius: 10px;
     text-align: left;
