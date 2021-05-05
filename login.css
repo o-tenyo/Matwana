@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     float: right;
+    padding:10px;
 }
 
 
@@ -40,15 +41,16 @@ background-position: center;
     background-color: #353239;
 }
  .usr{
-     padding-left: 40px;
+     padding-top: 20px;
      height: 50px;
-     width: 200px;
+     width: 300px;
      border-bottom: solid #F69F30;
  }
+ 
 .pswd{
-    padding-left: 40px;
+    padding-top: 20px;
     height: 50px;
-    width: 200px;
+    width: 300px;
     border-bottom: solid #F69F30;
 
     
@@ -59,5 +61,6 @@ background-position: center;
     border-radius: 5px;
     border-color: #F69F30;
     background-color: #353239;
+    text-overflow: auto;
 
 }
