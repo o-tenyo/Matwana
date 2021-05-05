@@ -1,7 +1,34 @@
 * {
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     font-family: Calibri;
+}
+/* Styles the header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+/* Styles the logo */
+#logo{
+    width: 97px;
+    height: 95px;
+}
+
+/* Styles the nav menu */
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #F69F30;
+}
+/* Styles the login text */
+.nav-menu > :last-child{
+    font-weight: bold;
 }
 body{
     background-image: url("/assets-about/matwana-background.png");
@@ -9,7 +36,7 @@ body{
     background-size: cover;
 }
 .about-full{
-    padding: 150px 80px;
+    padding: 50px 50px;
 }
 .about-one{
     background-color: rgb(59, 55, 55);
