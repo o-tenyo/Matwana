@@ -1,4 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 53px;
+    padding-right: 53px;
+}
 
+#logo{
+    width: 97px;
+    height: 95px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #F69F30;
+}
+.nav-menu > :last-child{
+    font-weight: bold;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -6,15 +27,6 @@
     float: right;
     padding:10px;
 }
-
-
-
-/* .header{
-display: flex;
-float: right;
-flex-direction: row;
-} */
-
 body{
 background-image: url(Images/matwana1440px.jpg);
 background-size:cover;
@@ -27,18 +39,17 @@ background-position: center;
     text-align: center;
     color: white;
 }
-
 #username{
-    height: 400px;
+    height: 350px;
     width: 300px;
     background-color: black;
     border-radius: 10px;
     margin-left: 40% ;
-    /* opacity: 0.8; */
     color: white;
     padding: 20px;
     text-align: center;
     background-color: #353239;
+    justify-content: center;
 }
  .usr{
      padding-top: 20px;
@@ -51,16 +62,14 @@ background-position: center;
     padding-top: 20px;
     height: 50px;
     width: 300px;
-    border-bottom: solid #F69F30;
-
-    
+    border-bottom: solid #F69F30;   
 }
 #log{
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 250px;
+    justify-content: center;
     border-radius: 5px;
     border-color: #F69F30;
     background-color: #353239;
-    text-overflow: auto;
-
+    color: white;
 }
