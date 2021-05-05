@@ -32,23 +32,31 @@ background-repeat: no-repeat;
     background-color: black;
     border-radius: 10px;
     margin-left: 40% ;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     color: white;
     padding: 20px;
     text-align: center;
+    background-color: #353239;
 }
  .usr{
+     padding-left: 40px;
      height: 50px;
-     width: 100px;
+     width: 200px;
      border-bottom: solid #F69F30;
  }
 .pswd{
+    padding-left: 40px;
     height: 50px;
-    width: 100px;
+    width: 200px;
     border-bottom: solid #F69F30;
+
     
 }
 #log{
     height: 30px;
     width: 100px;
+    border-radius: 5px;
+    border-color: #F69F30;
+    background-color: #353239;
+
 }
