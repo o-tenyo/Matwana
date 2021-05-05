@@ -30,5 +30,5 @@ input,button{
 .form {
     position: relative;
     width: 640px;
-    
+    height: 100px;
 }
