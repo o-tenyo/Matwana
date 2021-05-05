@@ -1,55 +1,50 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-}
-input,button{
-    border: none;
-    outline: none;
-    background: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.cont {
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-    width: 900px;
-    height: 550px;
-    margin: 0 auto 100px;
-    background: #fff;
-    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3) ,10px 10 15px rgba(70, 70, 70, 0.15),inset -10 -10px 15px  rgba(255, 255, 255, 0.3), inset 10px 10px 15px rgba(70, 70, 70, 0.15);
+    background-image: url(matwanaculture-20210504-0001.jpg);
+    background-size: cover;
+    font-family: fantasy;
 }
 
-.form {
-    position: relative;
-    width: 640px;
-    height: 100px;
-    transition: transform 1.s ease-in-out;
-    padding: 50px 30px 0;
+.Signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto background-color:white;
+    border-radius: 3px;
 }
-.sub-cont {
-    overflow: hidden;
-    position: absolute;
-    left: 640px;
-    top: 0;
-    width: 900px;
-    height: 100%;
-    padding-left: 260px;
-    background-color: #fff;
-    transition: transform 1.2s ease-in-out;
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
 }
-.cont.s--signup .sub-cont {
-    transform: translate3d(-640px,0,0);
+
+h4 {
+    text-align: center;
 }
-button{
-    display: block;
-    margin: 0 auto;
-    
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 320px;
+    height: 320px;
+    margin-top: 20px;
+    border: none background-color:orange color:white;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-left: 20px;
+    font-size: 15px;
 }
