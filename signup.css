@@ -66,6 +66,23 @@ input {
     font-size: 20px;
     border-bottom: 1px solid #f7a32f;
     background-color: transparent;
+    color: white;
+}
+
+p{
+    color: #f7a32f;
+}
+h4{
+    color: wheat;
+}
+input[type=checkbox] {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    padding: 4px;
+    color: yellow;
 }
 
 button {
