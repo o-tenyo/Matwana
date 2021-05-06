@@ -53,6 +53,7 @@ form {
     box-shadow: 0 0 17px #333;
     gap: 5px;
     height: fit-content;
+    color: antiquewhite;
     
 }
 
@@ -103,5 +104,5 @@ form h2 {
 }
 
 ::placeholder {
-    color: black
+    color: rgb(156, 121, 121)
 }
