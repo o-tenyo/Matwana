@@ -28,7 +28,7 @@ font-size: xx-large;
 .nav-menu > :last-child{
 font-weight: bold;
 }
-
+/*container styling*/
 .container{
 display: flex;
 flex-direction: row;
@@ -42,7 +42,7 @@ background-image: url(Images/matwana1440px.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 }
-
+/*intro Styling*/
 .intro{
 margin-left: 40%;
 font-size: xx-large;
@@ -56,7 +56,7 @@ button{
     border: solid;
 }
 #username{
-    border: solid black 1px;
+border: solid black 1px;
 padding-right: 50px;
 padding-left: 50px;
 height: 350px;
@@ -150,17 +150,14 @@ color:blue;
     align-items: center;
     color: white;
     font-size: 12px;
-    /* padding-left: 49px;
-    padding-right: 49px;
-    display: none; */
+     padding-left: 49px;
+    padding-right: 49px; 
 }
-/* Footer Menu */
 .footer-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-/* Footer Menu Items */
+} /*Footer Menu Items */
 .footer-menu > p{
     margin: 5px;
 }
