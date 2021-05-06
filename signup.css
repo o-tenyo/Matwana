@@ -51,6 +51,8 @@ form {
     border-radius: 25px;
     background-color:#0c0c0cb8;
     box-shadow: 0 0 17px #333;
+    gap: 5px;
+    height: fit-content;
     
 }
 
@@ -74,6 +76,7 @@ button {
     border-color: none;
     color: rgb(226, 154, 19);
     margin: top 20px;
+    border-radius: 12px;
 }
 
 form h2 {
