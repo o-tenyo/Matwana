@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #F69F30;
+}
+
+/* Sizes each child in the nav menu */
+.nav-menu> :first-child,
+.nav-menu> :nth-child(2),
+.nav-menu> :nth-child(3) {
+    width: 65px;
+    height: 22px;
+}
+
+/* Styles the login text */
+.nav-menu> :last-child {
+    font-weight: bold;
+}
+
+/* .nav-menu hover */
+.nav-menu> :hover {
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+#logo {
+    width: 97px;
+    height: 95px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #F69F30;
+    border-radius: 2px;
+}
+
+.nav-menu> :last-child {
+    font-weight: bold;
+}
+/* Backround Image */
+body {
+    background-image: url(matwanaculture-20210504-0001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form {
+    text-align: center;
+}
+/* Signup form */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 380px;
+    margin:7% auto;
+    border-radius: 25px;
+    background-color:#0c0c0cb8;
+    box-shadow: 0 0 17px #333;
+    gap: 5px;
+    height: fit-content;
+    color: antiquewhite;
+    
+}
+/* input styling */
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid #f7a32f;
+    background-color: transparent;
+    color: white;
+}
+
+p{
+    color: #f7a32f;
+}
+h4{
+    color: wheat;
+}
+input[type=checkbox] {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    padding: 4px;
+    color: yellow;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #212425;
+    border-color: none;
+    color: rgb(226, 154, 19);
+    margin: top 20px;
+    border-radius: 12px;
+}
+
+form h2 {
+    margin-bottom: 30px;
+    color: #f7a32f;
+
+}
+
+::placeholder {
+    color: rgb(156, 121, 121)
+}
+.footer {
+    margin-top: 500px;
+    height: 140px;
+    background-color: #353239;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-left: 49px;
+    padding-right: 49px;
+    /* display: none; */
+}
+
+/* Footer Menu */
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Menu Items */
+.footer-menu>p {
+    margin: 5px;
+}
+
+/* Positions the office locations text */
+.office-locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styles the Office locations heading */
+.office-locations> :first-child {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Positions the locations text */
+.office-locations-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* adds right-side border to the Office locations */
+.office-locations-child> :first-child,
+.office-locations-child> :nth-child(2),
+.office-locations-child> :nth-child(3),
+.office-locations-child> :nth-child(4) {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 68px;
+    border-right: solid rgba(246, 159, 48, .5) 1px;
+}
+
+.office-locations-child> :nth-child(4) {
+    border-right: none !important;
+}
