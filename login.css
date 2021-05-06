@@ -43,7 +43,7 @@ background-repeat: no-repeat;
 }
 
 .intro{
-border: solid;
+border: solid none;
 margin-left: 40%;
 font-size: xx-large;
 width: fit-content;
