@@ -35,6 +35,23 @@ body{
     font-size: 24px;
     color: #F69F30;
 }
+a{
+    text-decoration: none;
+}
+.nav-menu>a:link{
+    color: #F69F30;
+    }
+    
+    a:visited{
+    color: #F69F30;
+    }
+    a:hover{
+    color: white;
+    }
+    
+    a:active{
+    color:white;
+    }
 
 /* Sizes each child in the nav menu */
 .nav-menu > :first-child, .nav-menu > :nth-child(2), .nav-menu > :nth-child(3){
@@ -189,7 +206,7 @@ button{
     font-size: 18px;
     background-color: #F69F30;
     border: solid #353239 2px;
-    color: #353239;
+    color: #353239 ;
     display: flex;
     justify-content: center;
     align-items: center;

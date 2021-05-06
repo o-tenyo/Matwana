@@ -30,6 +30,22 @@
 .nav-menu > :last-child{
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #F69F30;
+    }
+    
+    a:visited{
+    color: #F69F30;
+    }
+    a:hover{
+    color: white;
+    }
+    a:active{
+    color:white;
+    }
 body{
     background-image: url("/assets-about/matwana-background.png");
     background-repeat: no-repeat;
