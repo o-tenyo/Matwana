@@ -9,8 +9,6 @@ body{
     background-image: url("./homepage-image-assets/matwana\ 1440px.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-left: 40px;
-    padding-right: 40px; */
 }
 
 /* ######## HEADER ######## */
@@ -38,9 +36,22 @@ body{
     color: #F69F30;
 }
 
+/* Sizes each child in the nav menu */
+.nav-menu > :first-child, .nav-menu > :nth-child(2), .nav-menu > :nth-child(3){
+    width: 65px;
+    height: 22px;
+}
+
 /* Styles the login text */
 .nav-menu > :last-child{
     font-weight: bold;
+}
+
+/* .nav-menu hover */
+.nav-menu > :hover{
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
 }
 
 /* ######## BODY ######## */
@@ -185,6 +196,11 @@ button{
     flex-direction: row;
 }
 
+button:hover{
+    background-color: #353239;
+    color: white;
+}
+
 /* Styles the preferred sacco buttons */
 #button1, #button2{
     font-size: 14px;
@@ -224,7 +240,7 @@ button{
 }
 
 /* Styles the content inside the buttons */
-.buttons, .create-account-buttons{
+.buttons, .account-buttons{
     display: flex;
     justify-content: space-around;
 }
@@ -261,7 +277,7 @@ button{
     font-size: 24px;
 }
 
-.create-account-buttons > button{
+.account-buttons > button{
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 5px;
@@ -292,4 +308,39 @@ button{
 /* Footer Menu Items */
 .footer-menu > p{
     margin: 5px;
+}
+
+/* Positions the office locations text */
+.office-locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styles the Office locations heading */
+.office-locations > :first-child{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Positions the locations text */
+.office-locations-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* adds right-side border to the Office locations */
+.office-locations-child > :first-child, .office-locations-child > :nth-child(2), .office-locations-child > :nth-child(3),.office-locations-child > :nth-child(4){
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 68px;
+    border-right:solid rgba(246, 159, 48, .5) 1px;
+}
+
+.office-locations-child > :nth-child(4){
+    border-right: none !important;
 }
