@@ -9,8 +9,8 @@ body{
     background-image: url("./homepage-image-assets/matwana\ 1440px.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
 }
 
 /* ######## HEADER ######## */
@@ -18,8 +18,8 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding-left: 53px;
-    padding-right: 53px;
+    padding-left: 93px;
+    padding-right: 93px;
 }
 
 /* Styles the logo */
@@ -55,8 +55,8 @@ body{
 
 /* Styles the body */
 .body{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 173px;
+    padding-right: 173px;
 }
 
 /* Styles the cards */
@@ -172,7 +172,7 @@ body{
 
 /* Styles the Buttons */
 button{
-    width: 129px;
+    width: 126px;
     height: 41px;
     margin-top: 10px;
     font-size: 18px;
@@ -180,21 +180,34 @@ button{
     border: solid #353239 2px;
     color: #353239;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
+/* Styles the preferred sacco buttons */
+#button{
+    font-size: 14px;
+}
+
 /* Styles the first button */
 .buttons > :first-child{
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
     margin-right: 5px;
 }
 
 /* Styles the second button */
 .buttons > :last-child{
-    border-radius: 0 10px 10px 0px;
+    border-radius: 0 5px 5px 0px;
     margin-left: 5px;
+}
+
+/* styles the lipa cash button */
+#lipa-cash{
+    width: 262px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 /* Styles the M-Pesa icon */
@@ -224,6 +237,7 @@ button{
     margin-top: 10px;
 }
 
+/* Styles the seats paragraph */
 .seats > p{
     color: #353239;
     font-size: 18px;
@@ -231,8 +245,24 @@ button{
     margin-right: 5px;
 }
 
+/* Styles the seats  */
 #seats{
     margin-left: 5px;
     display: flex;
     align-items: center;
 }
+
+/* Styles the save text */
+.save{
+    margin-top: 20px;
+    color: #353239;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Styles the footer container
+.footer{   
+    margin-top: 500px;
+    height: 140px;
+    background-color: #353239;
+} */
