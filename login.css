@@ -42,6 +42,10 @@ background-image: url(Images/matwana1440px.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 }
+.login{
+    margin-top: auto;
+    padding-top: 60px;
+}
 /*intro Styling*/
 .intro{
 margin-left: 40%;
@@ -53,12 +57,12 @@ padding-top: 50px;
 font-weight: 700;
 }
 button{
-    border: solid;
+border: solid;
 }
 #username{
 border: solid black 1px;
-padding-right: 50px;
-padding-left: 50px;
+padding-right: 40px;
+padding-left: 60px;
 height: 350px;
 width: 250px;
 background-color: black;
@@ -68,7 +72,7 @@ color: white;
 padding: 20px;
 background-color: #353239;
 justify-content: space-around;
-padding-top: 60px; 
+padding-top: 50px; 
 }
 
 .usr{
