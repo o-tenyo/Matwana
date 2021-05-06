@@ -79,14 +79,16 @@
                 </div>
 
                 <!-- Save preference for next time -->
-                <form class="save" action="#">
-                    <input type="checkbox" id="save" name="save" value="Save seat">
-                    <label for="vehicle1"> Save for next trip </label><br>
+                <form class="save">
+                    <input type="checkbox" id="check-me" onclick="show()">
+
+                    <label for="vehicle1"> Save for next trip </label>
                 </form>
                 
-                <div class="buttons">
-                    <button id="button">Create account</button>
-                    <button id="button">Login</button>
+                <!-- Create Account -->
+                <div class="create-account-buttons">
+                    <button id="button1" style="display:none">Login</button>
+                    <button id="button2" style="display:none">Create account</button>
                 </div>
 
             </div>
@@ -138,5 +140,6 @@
             </div>
         </div>
     </div>
+    <script src="homepage.js"></script>
 </body>
 </html>

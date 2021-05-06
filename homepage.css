@@ -186,8 +186,9 @@ button{
 }
 
 /* Styles the preferred sacco buttons */
-#button{
+#button1, #button2{
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* Styles the first button */
@@ -223,7 +224,7 @@ button{
 }
 
 /* Styles the content inside the buttons */
-.buttons{
+.buttons, .create-account-buttons{
     display: flex;
     justify-content: space-around;
 }
@@ -260,9 +261,35 @@ button{
     font-size: 24px;
 }
 
+.create-account-buttons > button{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
 /* Styles the footer container */
 .footer{   
     margin-top: 500px;
     height: 140px;
     background-color: #353239;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-left: 49px;
+    padding-right: 49px;
+    /* display: none; */
+}
+
+/* Footer Menu */
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Menu Items */
+.footer-menu > p{
+    margin: 5px;
 }
