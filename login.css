@@ -21,6 +21,7 @@ justify-content: space-between;
 margin-top: 40px;
 font-size: 24px;
 color: #F69F30;
+font-weight: 700;
 }
 
 .nav-menu > :last-child{
@@ -93,9 +94,11 @@ border-left: none;
 border-right:none;
 border-top: none;
 }
+
 .pswd:hover{
 color: #F69F30;
 }
+
 #terms{
 color: black;
 }
