@@ -21,7 +21,7 @@ justify-content: space-between;
 margin-top: 40px;
 font-size: 24px;
 color: #F69F30;
-font-weight: 700;
+font-size: xx-large;
 }
 
 .nav-menu > :last-child{
@@ -40,15 +40,15 @@ body{
 background-image: url(Images/matwana1440px.jpg);
 background-size:cover;
 background-repeat: no-repeat;
-background-position: center;
 }
 
 .intro{
+border: solid;
 margin-left: 40%;
 font-size: xx-large;
 width: fit-content;
 align-items: center;
-color: #F69F30;
+color: white;
 padding-top: 50px;
 font-weight: 700;
 }
