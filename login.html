@@ -10,32 +10,30 @@
 </head>
 <body>
     <div class="header">
-        <img id="logo" src="./Images/logo_only-removebg-preview (1).png" alt="Logo">       
+        <img id="logo" src="./Images/logo_only-removebg-preview (1).png" alt="Logo">
         <nav class="nav-menu">
             <ul><a href="http://127.0.0.1:5501/index.html#">Home</a></ul>
             <ul><a href="http://127.0.0.1:5501/about.html">About</a></ul>
             <ul><a href="#">Login</a></ul>
         </nav>
-        
     </div>
-
 <div class="login">
-    <h2 class="intro">Login</h2>
-        <form id="username">
-            <i class="fa fa-user"></i> 
-            Username
-
+    <form id="username">
+        <h2 class="intro">Login</h2>
+        <div class="username">
+            <i class="fa fa-user" id="user-icon"></i>
             <input class="usr" placeholder="Enter username"> </input>
-            <i class="fa fa-lock"></i> 
-            Password
-
-            <input class="pswd" placeholder="Enter password"></input>
-            <p id="terms">  
-                <i class="fa fa-check-square"></i> 
-            Agree to terms of use</p>
-            <button id="log">Login</button>
-                <p><a href="http://127.0.0.1:5501/signup.html">Create new account</a></p>
-        </form>    
+        </div>
+        <div class="password">
+            <i class="fa fa-lock" id="lock-icon"></i>
+            <input class="pswd" type="password" placeholder="Enter password"></input>
+        </div>
+        <p id="terms">
+            <i class="fa fa-check-square"></i>
+        Agree to terms of use</p>
+        <button id="log">Login</button>
+            <p><a href="http://127.0.0.1:5501/signup.html">Create new account</a></p>
+    </form>
 </div>
 <footer>
     <div class="footer">

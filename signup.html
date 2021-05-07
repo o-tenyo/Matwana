@@ -5,44 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>SignUp</title>
+    <title>Login</title>
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="header">
-        <img id="logo" src="logo trans.png" alt="Logo">       
+        <img id="logo" src="logo trans.png" alt="Logo">
         <nav class="nav-menu">
-            <ul><a href="http://127.0.0.1:5501/index.html#">Home</a></ul>
+            <ul><a href="http://127.0.0.1:5501/index.html">Home</a></ul>
             <ul><a href="http://127.0.0.1:5501/about.html">About</a></ul>
-            <ul><a href="http://127.0.0.1:5501/login.html">Login</a></ul>
+            <ul><a href="http://127.0.0.1:5501/about.html">Contact</a></ul>
         </nav>
     </div>
-    <form>
-        <div class="form-container">
-       <h2>SignUp</h2>
-       <input type="text" name="" list="tech" placeholder="Usertype">
-       <datalist id="tech">
-           <option>Driver</option>
-           <option>Admin</option>
-       </datalist>
-       <input type="names" name="" placeholder="Names">
-       <input type="email" name="" placeholder="Email">
-       <input type="username" name="" placeholder="Username">
-       <input type="password" name="" placeholder="Password">
-       <input type="password" name="" placeholder="Confirm Password">
-       <p><i class="fa fa-check-square"></i> I agree to terms of use</p>
-       <button type="submit">SignUp</button>
-       <h4 class="or">Already have an account?</h4>
-       <button type="button" class="Login-button"><a href="http://127.0.0.1:5501/login.html#">Login Here</a></button>
+<div class="login">
+    <form id="username">
+        <h2 class="intro">Signup</h2>
+        <div class="username">
+            <i class="fa fa-user" id="user-icon"></i>
+            <input class="usr" placeholder="Full name"> </input>
         </div>
-   </form>
-   <!-- footer -->
+        <div class="password">
+            <i class="fa fa-envelope" id="lock-icon"></i>
+            <input class="pswd" type="password" placeholder="Enter Email"></input>
+        </div>
+         <div class="username">
+            <i class="fa fa-user" id="user-icon"></i>
+            <input class="usr" placeholder="Username"> </input>
+        </div>
+        <div class="password">
+            <i class="fa fa-lock" id="lock-icon"></i>
+            <input class="pswd" type="password" placeholder="Enter password"></input>
+        </div>
+        <div class="password">
+            <i class="fa fa-lock" id="lock-icon"></i>
+            <input class="pswd" type="password" placeholder="Re-nter password"></input>
+        </div>
+        <p id="terms">
+            <i class="fa fa-check-square"></i>
+        Agree to terms of use</p>
+        <button id="log">Signup</button>
+            <p><a href="http://127.0.0.1:5501/login.html">Login</a></p>
+    </form>
+</div>
+<footer>
     <div class="footer">
         <div class="footer-menu">
             <p><a href="http://127.0.0.1:5501/about.html">About</a></p>
             <p><a href="http://127.0.0.1:5501/about.html">Contact</a></p>
-            <p><a href="http://127.0.0.1:5501/login.html#">Login</a></p>
-        </div> <p>© 2021| matwana.com</p> 
+            <p><a href="#">Login</a></p>
+        </div>
+        <p>© 2021| matwana.com</p>
         <div class="office-locations">
             <p>Office locations</p>
             <div class="office-locations-child">
@@ -50,5 +62,14 @@
                 <p>Bus Station 0712345678</p>
                 <p>Odeon 0712345678</p>
                 <p>Archives 0712345678</p>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
+
+
+
+
+
