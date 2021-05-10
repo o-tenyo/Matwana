@@ -176,3 +176,7 @@
     border-color: #F69F30;
     color: #F69F30;
 }
+
+.first:hover, .second:hover, .third:hover, .fourth:hover{
+    box-shadow: 0 0 1px 2px rgba(96, 96, 96, .7);
+}
