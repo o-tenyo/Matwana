@@ -100,6 +100,7 @@
     font-weight: bold;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -15px;
 }
 
 .user{
@@ -134,3 +135,19 @@
     margin-right: 20px;
 }
 
+/* Positions the cards */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Style the cards */
+.cards > :first-child, .cards > :nth-child(2), .cards > :nth-child(3), .cards > :last-child{
+    width: 258px;
+    height: 134px;
+    border: solid #DFE0EB 2px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
