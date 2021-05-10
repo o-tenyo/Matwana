@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .body{
@@ -99,7 +100,6 @@
     font-size: 24px;
     font-weight: bold;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: -15px;
 }
 
@@ -119,7 +119,6 @@
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .user > img{
@@ -144,10 +143,36 @@
 }
 
 /* Style the cards */
-.cards > :first-child, .cards > :nth-child(2), .cards > :nth-child(3), .cards > :last-child{
+.first, .second, .third, .fourth{
     width: 258px;
     height: 134px;
     border: solid #DFE0EB 2px;
     border-radius: 8px;
     margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ##### Styles the cards ##### */
+/* Text */
+.first > :first-child, .second > :first-child,.third > :first-child, .fourth > :first-child{
+    color: #9FA2B4;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Digit */
+.first > :last-child, .second > :last-child, .third > :last-child, .fourth > :last-child{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+/* overides the card's style on hover*/
+.first:hover, .first:hover p, .second:hover, .second:hover p,.third:hover, .third:hover p , .fourth:hover, .fourth:hover p{
+    border-color: #F69F30;
+    color: #F69F30;
 }
