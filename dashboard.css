@@ -336,3 +336,33 @@
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+/* #### Tickets and tasks container #### */
+.tickets-tasks{
+    /* border: solid #DFE0EB 2px;
+    border-radius: 8px; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #353239; */
+}
+
+/* Tickets */
+.tickets{
+    width: 546px;
+    height: 336px;
+    margin-top: 32px;
+    border: solid #DFE0EB 2px;
+    border-radius: 8px;
+    background-color: #353239;
+}
+
+/* Tasks */
+.tasks{
+    width: 546px;
+    height: 336px;
+    margin-top: 32px;
+    border: solid #DFE0EB 2px;
+    border-radius: 8px;
+    background-color: #353239;
+}
