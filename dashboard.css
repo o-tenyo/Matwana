@@ -16,7 +16,7 @@
 .sidebar{
     background-color: rgba(53, 50, 57);
     width: 255px;
-    height: 1415px; 
+    height: 1379px; 
     border-right: solid black 2px;
     padding-top: 36px;
     color: #A4A6B3;
@@ -26,6 +26,8 @@
     background-color: rgba(53, 50, 57, .96);
     width: 1300px;
     height: 1415px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .logo{
@@ -93,7 +95,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .header > :first-child{
@@ -137,22 +140,22 @@
 /* Positions the cards */
 .cards{
     display: flex;
-    justify-content: space-around;
-    padding-left: 15px;
-    padding-right: 15px;
+    justify-content: space-between;
 }
 
 /* Style the cards */
 .first, .second, .third, .fourth{
-    width: 258px;
+    width: 276px;
     height: 134px;
     border: solid #DFE0EB 2px;
     border-radius: 8px;
+    box-sizing: border-box;
     margin-top: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 /* ##### Styles the cards ##### */
@@ -161,6 +164,7 @@
     color: #9FA2B4;
     font-size: 19px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Digit */
@@ -169,6 +173,7 @@
     font-size: 40px;
     font-weight: bold;
     margin-top: -25px;
+    cursor: pointer;
 }
 
 /* overides the card's style on hover*/
@@ -179,4 +184,12 @@
 
 .first:hover, .second:hover, .third:hover, .fourth:hover{
     box-shadow: 0 0 1px 2px rgba(96, 96, 96, .7);
+}
+
+/* Styles the graph section */
+.graph-section{
+    border: solid #DFE0EB 2px;
+    border-radius: 8px;
+    margin-top: 30px;
+    height: 546px;
 }
