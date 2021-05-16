@@ -192,4 +192,102 @@
     border-radius: 8px;
     margin-top: 30px;
     height: 546px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles the graph container */
+.graph{
+    padding: 32px; 
+}
+
+/* Graph headings */
+/* Heading */
+.graph-header > :first-child{
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Positions the subheading and the time bars */
+.graph-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+}
+
+/* Sub-heading */
+.graph-heading > :first-child{
+    font-weight:300;
+    font-size: 12px;
+    color: #9FA2B4;
+    margin-top: 8px;
+}
+
+/* Styles the data containers */
+.data{
+    width: 342px;
+    height: 546px;
+    border-left: solid #DFE0EB 1px;
+}
+
+/* graph time */
+.graph-time{
+    display: flex;
+    justify-content: space-between;
+    width: 172px;
+}
+
+/* graph time containers */
+/* #### Today container #### */
+#today{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Dash */
+#today > :first-child{
+    color: #F69F30;
+    width: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    transform: scale(2, 1);
+    margin-top: 3.5px;
+    margin-right: 5px;
+}
+
+/* text */
+#today > :last-child{
+    color: #9FA2B4;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* #### Yesterday container #### */
+#yesterday{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Dash */
+#yesterday > :first-child{
+    color: #DFE0EB;
+    width: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    transform: scale(2, 1);
+    margin-top: 3.5px;
+    margin-right: 5px;
+}
+
+/* Text */
+#yesterday > :last-child{
+    color: #9FA2B4;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
