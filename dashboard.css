@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .body{
@@ -207,7 +207,6 @@
     font-weight: bold;
     color: white;
     font-size: 19px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Positions the subheading and the time bars */
@@ -251,9 +250,9 @@
     width: 16px;
     font-weight: bold;
     font-size: 16px;
-    transform: scale(2, 1);
+    transform: scale(1.5, 1);
     margin-top: 3.5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 /* text */
@@ -262,7 +261,6 @@
     font-size: 12px;
     font-weight: 400;
     margin-top: 7px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* #### Yesterday container #### */
@@ -277,9 +275,9 @@
     width: 16px;
     font-weight: bold;
     font-size: 16px;
-    transform: scale(2, 1);
+    transform: scale(1.5, 1);
     margin-top: 3.5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 /* Text */
@@ -288,7 +286,6 @@
     font-size: 12px;
     font-weight: 400;
     margin-top: 7px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* ##### Graph ##### */
@@ -296,4 +293,46 @@
     width: 755px;
     height: 480px;
     margin-top: 54px;
+}
+
+
+/* ######## Styles the data section ####### */
+/* Section */
+/* .data{
+    padding-top: 32px;
+    padding-bottom: 32px;
+} */
+
+/* Resolved */
+.resolved, .avg-first, .avg-response, .received{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid #DFE0EB 1px;
+    color: #9FA2B4;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.resolved > :last-child, .received > :last-child, .avg-first > :last-child, .avg-response > :last-child, .resolution > :last-child{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Resolution */
+.resolution{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #9FA2B4;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
