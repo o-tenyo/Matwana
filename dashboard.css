@@ -339,30 +339,182 @@
 
 /* #### Tickets and tasks container #### */
 .tickets-tasks{
-    /* border: solid #DFE0EB 2px;
-    border-radius: 8px; */
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    /* background-color: #353239; */
 }
 
-/* Tickets */
+/* ### Styles the Tickets container ### */
 .tickets{
-    width: 546px;
-    height: 336px;
+    width: 576px;
+    height: fit-content;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-top: 32px;
     border: solid #DFE0EB 2px;
     border-radius: 8px;
     background-color: #353239;
 }
 
-/* Tasks */
+/* Unresolved tickets title*/
+#group-support > :first-child, #todays-tasks{
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Group support container */
+.group-support, .todays-tasks{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+/* Group support text */
+#group-support > :last-child, #todays-tasks > :last-child{
+    color: #9FA2B4;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#group-support > :last-child > span{
+    color: white !important;
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.group-support > :last-child, .todays-tasks > :last-child{
+    color: #F69F30;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* ### Tickets containers ### */
+/* Feature request and todays tasks */
+.feature-request, .new-task{
+    margin-top: 15px;
+}
+
+
+.feature-request, .customer-response, .developer-fix, .pending, .new-task, .ticket-update, .new-ticket, .ticket-report{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: solid white 1px;
+}
+
+/* Removes border bottom on pending */
+.pending, .ticket-report{
+    border: none;
+}
+
+/* value */
+.feature-request > :last-child, .customer-response > :last-child, .developer-fix > :last-child, .pending > :last-child{
+    color: #9FA2B4;
+}
+
+/* ##### Tasks ##### */
 .tasks{
-    width: 546px;
-    height: 336px;
+    width: 576px;
+    height:fit-content;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-top: 32px;
     border: solid #DFE0EB 2px;
     border-radius: 8px;
     background-color: #353239;
+}
+
+/* create new task text */
+.new-task{
+    color: #C5C7CD !important;
+}
+
+/* Create new task button */
+#add-task{
+    color: #9FA2B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-top: -10px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Aligns items in the ticket update in the center */
+.ticket-update > div{
+    display: flex;
+    align-items: center;
+}
+
+.ticket-update > div > label{
+    margin-left: 16px;
+}
+
+#ticket-update{
+    border: solid #C5C7CD 2px;
+    background-color: #353239;
+    cursor: pointer;
+}
+
+#urgent{
+    width: 74px;
+    height: 24px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #FEC400;
+
+}
+
+.new-ticket > div{
+    display: flex;
+    align-items: center;
+}
+
+.new-ticket > div > label{
+    margin-left: 16px;
+}
+
+.new-ticket > button{
+    width: 54px;
+    height: 24px;
+    border: none;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    background-color: #29CC97;
+    border-radius: 8px;
+}
+
+
+.ticket-report > div > label{
+    margin-left: 16px;
+}
+
+.ticket-report > div{
+    display: flex;
+    align-items: center;
+}
+
+.ticket-report > button{
+    color: #9FA2B4;
+    background-color: white;
+    font-size: 11px;
+    width: 76px;
+    height: 24px;
+    border-radius: 8px;
+    border: none;
 }
