@@ -391,13 +391,12 @@
 }
 
 /* ### Tickets containers ### */
-/* Feature request and todays tasks */
+/* Feature request */
 .feature-request, .new-task{
     margin-top: 15px;
 }
 
-
-.feature-request, .customer-response, .developer-fix, .pending, .new-task, .ticket-update, .new-ticket, .ticket-report{
+.feature-request{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -408,6 +407,39 @@
     font-weight: 400;
     font-size: 14px;
     border-bottom: solid white 1px;
+}
+
+/* customer response and developer fix */
+.customer-response, .developer-fix{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: solid white 1px;
+}
+
+/* todays tasks */
+.pending, .new-task, .ticket-update, .new-ticket, .ticket-report{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: solid white 1px;
+}
+
+.pending{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* Removes border bottom on pending */
