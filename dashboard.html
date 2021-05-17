@@ -174,18 +174,21 @@
                             <button id="add-task">+</button>
                         </div>
                         <div class="ticket-update">
-                            <div>
-
-                                <input type="radio" id="ticket-update">
-                                <label>Finish ticket update</label><br>
-                            </div>
-                            <button id="urgent">URGENT</button>
-                        </div>
-                        <div class="new-ticket">
                             <label class="checkbox" for="myCheckboxId">
                                 <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">
 
                                 <div class="checkbox__box"> </div>
+
+                                Finish ticket update
+                            </label>
+                            
+                            <button id="urgent">URGENT</button>
+                        </div>
+                        <div class="new-ticket">
+                            <label class="checkbox" for="ticketCheckboxId">
+                                <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="ticketCheckboxId">
+
+                                <div class="ticket__checkbox__box"> </div>
 
                                 Create new ticket example
                             </label>
@@ -194,8 +197,13 @@
                         </div>
                         <div class="ticket-report">
                             <div>
-                                <input type="radio" id="update-ticket">
-                                <label>Update ticket report</label><br>
+                                <label class="checkbox" for="reportCheckboxId">
+                                    <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="reportCheckboxId">
+    
+                                    <div class="report__checkbox__box"> </div>
+    
+                                    Update ticket report
+                                </label>
                             </div>
                             <button>DEFAULT</button>
                         </div>

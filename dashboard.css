@@ -484,9 +484,9 @@
     align-items: center;
 }
 
-.new-ticket > div > label{
+/* .new-ticket > div > label{
     margin-left: 16px;
-}
+} */
 
 .new-ticket > button{
     width: 54px;
@@ -500,9 +500,9 @@
 }
 
 
-.ticket-report > div > label{
+/* .ticket-report > div > label{
     margin-left: 16px;
-}
+} */
 
 .ticket-report > div{
     display: flex;
