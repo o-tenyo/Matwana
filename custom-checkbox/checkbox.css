@@ -1,0 +1,33 @@
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox__input{
+    display: none;
+}
+
+.checkbox__box{
+    width: 1.25em;
+    height: 1.25em;
+    border: solid #C5C7CD 2px;
+    margin-right: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.checkbox__box::after{
+    content: '\2714';
+    color: #353239;
+}
+
+.checkbox__input:checked + .checkbox__box{
+    background: #F69F30;
+    border-color: #F69F30;
+    color: white;
+    content: '\2714';
+}

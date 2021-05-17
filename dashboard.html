@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="./custom-checkbox/checkbox.css">
     <script src="https://kit.fontawesome.com/439465dfa3.js" crossorigin="anonymous"></script>
     <title>Dashboard</title>
 </head>
@@ -174,16 +175,21 @@
                         </div>
                         <div class="ticket-update">
                             <div>
+
                                 <input type="radio" id="ticket-update">
                                 <label>Finish ticket update</label><br>
                             </div>
                             <button id="urgent">URGENT</button>
                         </div>
                         <div class="new-ticket">
-                            <div>
-                                <input type="radio" id="new-ticket-example">
-                                <label>Create new ticket example</label><br>
-                            </div>
+                            <label class="checkbox" for="myCheckboxId">
+                                <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">
+
+                                <div class="checkbox__box"> </div>
+
+                                Create new ticket example
+                            </label>
+
                             <button>NEW</button>
                         </div>
                         <div class="ticket-report">
